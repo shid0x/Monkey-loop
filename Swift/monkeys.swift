@@ -21,7 +21,7 @@ var password = "OUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUH"
 print("OUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUHOUH")
 let enteredPassword = readLine()
 
-// libéré des singes ou pas ?
+// libérer des singes ou pas ?
 if enteredPassword == password {
     player.pause()
     print("OUHOUHOUHOUHOUHOUH Bravo")
