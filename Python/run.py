@@ -12,4 +12,15 @@ Media = Instance.media_new(youtube_url)
 Media.get_mrl()
 player.set_media(Media)
 
-#todo : loop & pass
+#loop & pass
+
+player.play()
+
+while True:
+    entered_password = input("OUH OUH OUH ?:")
+    if entered_password == password:
+        player.stop()
+        print("OUH !.")
+        break
+    else:
+        print("Incorrect password.")
